@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  padding: 0px ;
+  margin: 0px;
+  background-color: gray;
+  overflow: hidden;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  position: absolute;
+  right: 440px;
+  top: 540px;
+  width: 300px;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+.container{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 50vw;
+  height: 65vh;
+  margin: 7vw auto ;
+  padding-bottom: 45px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 10px 10px 8px whitesmoke;;
+
+}
+.left{
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+
+}
+.right{
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;  
+  padding: 80px 0;
+  
+}
+.right input{
+  outline: none;
+  border: none;
+  width: 250px;
+  padding: 5px 1rem;
+  margin: 8px 0;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  font-size: 14px;
+}
+h3{
+  text-transform: capitalize;
+  padding-right: 130px;
+}
+.result{
+  width: 50vw;
+  text-align: center;
+  position: relative;
+  bottom: 108px;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  margin: 0 auto;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 20px;
+   font-family: "Roboto Condensed", sans-serif;  
+};
